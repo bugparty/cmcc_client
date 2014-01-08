@@ -6,6 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/wifimgr" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/wifimgr/Debug" />
+      <excludeFolder url="file://$MODULE_DIR$/wifimgr/Release" />
     </content>
     <orderEntry type="jdk" jdkName="jdk_1.7_32" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,8 +1,12 @@
 package com.ifancc.cmcc.views;
 
+import com.intellij.uiDesigner.core.GridConstraints;
+import com.intellij.uiDesigner.core.GridLayoutManager;
+import com.intellij.uiDesigner.core.Spacer;
 import com.sun.org.apache.xalan.internal.xsltc.compiler.util.ErrorMessages_es;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 
 public class Start extends JDialog {
@@ -54,9 +58,9 @@ public class Start extends JDialog {
     }
 
     public static void main(String[] args) {
-        try{
-        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        }catch(Exception err){
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception err) {
             err.printStackTrace();
         }
         Start dialog = new Start();
@@ -64,4 +68,5 @@ public class Start extends JDialog {
         dialog.setVisible(true);
         System.exit(0);
     }
+
 }

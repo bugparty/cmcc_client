@@ -9,14 +9,6 @@ extern "C" {
 #endif
 /*
  * Class:     com_ifancc_wifimgr_Manager
- * Method:    getWifiList
- * Signature: ()[Lcom/ifancc/wifimgr/Bean/Wifi;
- */
-JNIEXPORT jobjectArray JNICALL Java_com_ifancc_wifimgr_Manager_getWifiList
-  (JNIEnv *, jobject);
-
-/*
- * Class:     com_ifancc_wifimgr_Manager
  * Method:    WlanEnumInterfaces
  * Signature: ()Lcom/ifancc/wifimgr/Bean/WlanInterfaceInfoList;
  */

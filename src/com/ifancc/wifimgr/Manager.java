@@ -26,7 +26,8 @@ import java.lang.reflect.Field;
  */
 public class Manager {
     static {
-        System.setProperty("java.library.path", System.getProperty("java.library.path")
+        System.setProperty("java.library.path",
+                System.getProperty("java.library.path")
                 + ";D:\\coursera_scale\\cmcc\\Debug");
         Field fieldSysPath = null;
 //        try {
